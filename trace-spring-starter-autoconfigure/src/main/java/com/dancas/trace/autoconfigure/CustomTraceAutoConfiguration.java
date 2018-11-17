@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConditionalOnClass(Tracing.class)
 @EnableConfigurationProperties(TraceProperties.class)
-public class TraceAutoConfiguration {
+public class CustomTraceAutoConfiguration {
 
     @Autowired
     private TraceProperties traceProperties;
